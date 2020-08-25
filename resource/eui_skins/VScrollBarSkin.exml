@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.VScrollBarSkin" minWidth="8" minHeight="20" xmlns:e="http://ns.egret.com/eui">
+    <e:Image id="thumb" scale9Grid="3,3,2,2" horizontalCenter="0" source="gameRes_json.Bg_Shop03_png"/>
+</e:Skin>

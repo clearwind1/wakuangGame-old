@@ -1,0 +1,415 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,logo_bg_png,Bg_Logon_01_png,appIcon_json",
+			"name": "preload"
+		},
+		{
+			"keys": "Loadinglogo_png,loadingIcon_png",
+			"name": "loadlogo"
+		},
+		{
+			"keys": "egret_icon_png,description_json,gameRes_json,Bg_Main_01_jpg,Role_02_png,Bg_Shop02_png,Bg_Shop01_jpg,role_01_png,Role_03_png,Banner_Kuangquguanli_lv.1_png,Banner_Kuangquguanli_lv.2_png,Banner_Kuangquguanli_lv.3_png,Banner_Kuangquguanli_lv.4_png,Banner_Kuangquguanli_lv.5_png,Banner_Kuangquguanli_lv.6_png,Bg_MiningArea_Lv1_png,Bg_MiningArea_Lv2_png,Bg_MiningArea_Lv3_png,Bg_MiningArea_Lv4_png,Bg_MiningArea_Lv5_png,Bg_MiningArea_Lv6_png,Btn_MiningArea01_png,Btn_MiningArea02_png,Frame_MiningArea_01_png,Bg_Mine01_png,Bg_Mine02_png,Bg_Mine03_png,Lv.1_png,Lv.2_png,Lv.3_png,Lv.4_png,Lv.5_png,Lv.6_png,Jiaoyisuo_png,Gongjushangdian_png,Kuangquguangli_png,Icon_Caikuanggongju_png,Icon_Jingyanquan_png,Icon_Ranliao1_png,Icon_Ranliao2_png,Icon_Ranliao3_png,Icon_Taoxiji_png,chongxingwajueji_png,daxingwajueji_png,miniwajueji_png,xiaoxingwajueji_png,zhongxingwajueji_png,Bg_Jiaoyisuo01_png,Lv1_tex_png,Lv1_ske_json,Lv1_tex_json",
+			"name": "gameres"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/edugameRes/logo_bg.png",
+			"type": "image",
+			"name": "logo_bg_png"
+		},
+		{
+			"url": "assets/Bg_Logon_01.png",
+			"type": "image",
+			"name": "Bg_Logon_01_png"
+		},
+		{
+			"url": "assets/edugameRes/appIcon.json",
+			"type": "sheet",
+			"name": "appIcon_json",
+			"subkeys": "Banner_Information_Back01_png,Banner_Personal_Back01_png,Banner_Personal_Back02_png,Banner_Switch_png,Bg_Logon_02_png,Bg_Logon_03_png,Bg_Logon_04_png,Bg_Logon_05_png,Bg_Logon_06_png,Bg_Main01_png,Bg_Main02_png,Bg_Main03_png,Bg_Main03_xz_png,Bg_Personal01_png,Bg_Personal02_png,Bg_Personal03_png,Bg_Personal04_png,Btn_Logon_01_png,Btn_Personal01_png,Icon_GRKabao_png,Icon_GRQianbao_png,Icon_GRShezhi_png,Icon_GRXiangqing_png,Icon_GRYaoqingma_png,Icon_Gerenzhongxin_png,Icon_Gerenzhongxin_xz_png,Icon_Jiaoyihang_png,Icon_Jiaoyihang_xz_png,Icon_Kabao_png,Icon_Mima_png,Icon_Qianbao_png,Icon_Shouji01_png,Icon_Shouji02_png,Icon_Shouye_png,Icon_Shouye_xz_png,Icon_Weixin_png,Icon_Yanzhengma_png,Icon_Yaoqingma_png,Icon_Youxi_png,Icon_Zixun_png,Icon_Zixun_xz_png,Line_Information01_png,Line_Main01_png,Line_Personal01_png,Line_Personal02_png,Logo_Main_png"
+		},
+		{
+			"url": "assets/edugameRes/Loadinglogo.png",
+			"type": "image",
+			"name": "Loadinglogo_png"
+		},
+		{
+			"url": "assets/edugameRes/loadingIcon.png",
+			"type": "image",
+			"name": "loadingIcon_png"
+		},
+		{
+			"url": "assets/edugameRes/gameRes.json",
+			"type": "sheet",
+			"name": "gameRes_json",
+			"subkeys": "Bar_Main_01_png,Bar_Main_02_png,Bg_Jiaoyisuo02_png,Bg_Jiaoyisuo03_png,Bg_Jiaoyisuo04_png,Bg_Kuangquguanli01_png,Bg_Kuangquguanli02_png,Bg_Kuangquguanli03_png,Bg_Main_02_png,Bg_Main_03_png,Bg_Main_04_png,Bg_Miner01_png,Bg_Shop03_png,Bg_Shop04_png,Bg_Shop05_png,Bg_down_png,Bg_up_png,Btn_Blue_01_png,Btn_Blue_02_png,Btn_Close_png,Btn_Fenxiang_bg_png,Btn_Fenxiang_png,Btn_Gonggao_png,Btn_Haoyou_png,Btn_Main_Cangku_png,Btn_Main_Gongju_png,Btn_Main_Jiaoyisuo_png,Btn_Main_Kuanggong_png,Btn_Main_Kuangqu_png,Btn_Main_Kuangquguangli_png,Btn_Shezhi_png,Btn_Shop01_png,Btn_Shop02_png,Btn_Shop03_png,Btn_Shop04_png,Btn_Yellow_01_png,Btn_Yellow_02_png,Btn_open_png,Frame_01_png,Frame_02_png,Frame_03_png,Head_Main_01_png,Head_Main_02_png,Icon_G_png,Icon_Kuangshi_png,Icon_Lianjie_png,Icon_Pengyouquan_png,Icon_Weixin2_png,Icon_Zuanshi_png,Icon_level01_png,Item_Haoyou01_png,Line01_png,Line02_png,Line03_png,Line04_png,Line05_png,Line06_png,Point_png,banner_png,close_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_Main_01.jpg",
+			"type": "image",
+			"name": "Bg_Main_01_jpg"
+		},
+		{
+			"url": "assets/edugameRes/Role_02.png",
+			"type": "image",
+			"name": "Role_02_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_Shop02.png",
+			"type": "image",
+			"name": "Bg_Shop02_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_Shop01.jpg",
+			"type": "image",
+			"name": "Bg_Shop01_jpg"
+		},
+		{
+			"url": "assets/edugameRes/role_01.png",
+			"type": "image",
+			"name": "role_01_png"
+		},
+		{
+			"url": "assets/edugameRes/Role_03.png",
+			"type": "image",
+			"name": "Role_03_png"
+		},
+		{
+			"url": "assets/edugameRes/Banner_Kuangquguanli_lv.1.png",
+			"type": "image",
+			"name": "Banner_Kuangquguanli_lv.1_png"
+		},
+		{
+			"url": "assets/edugameRes/Banner_Kuangquguanli_lv.2.png",
+			"type": "image",
+			"name": "Banner_Kuangquguanli_lv.2_png"
+		},
+		{
+			"url": "assets/edugameRes/Banner_Kuangquguanli_lv.3.png",
+			"type": "image",
+			"name": "Banner_Kuangquguanli_lv.3_png"
+		},
+		{
+			"url": "assets/edugameRes/Banner_Kuangquguanli_lv.4.png",
+			"type": "image",
+			"name": "Banner_Kuangquguanli_lv.4_png"
+		},
+		{
+			"url": "assets/edugameRes/Banner_Kuangquguanli_lv.5.png",
+			"type": "image",
+			"name": "Banner_Kuangquguanli_lv.5_png"
+		},
+		{
+			"url": "assets/edugameRes/Banner_Kuangquguanli_lv.6.png",
+			"type": "image",
+			"name": "Banner_Kuangquguanli_lv.6_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_MiningArea_Lv1.png",
+			"type": "image",
+			"name": "Bg_MiningArea_Lv1_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_MiningArea_Lv2.png",
+			"type": "image",
+			"name": "Bg_MiningArea_Lv2_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_MiningArea_Lv3.png",
+			"type": "image",
+			"name": "Bg_MiningArea_Lv3_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_MiningArea_Lv4.png",
+			"type": "image",
+			"name": "Bg_MiningArea_Lv4_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_MiningArea_Lv5.png",
+			"type": "image",
+			"name": "Bg_MiningArea_Lv5_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_MiningArea_Lv6.png",
+			"type": "image",
+			"name": "Bg_MiningArea_Lv6_png"
+		},
+		{
+			"url": "assets/edugameRes/Btn_MiningArea01.png",
+			"type": "image",
+			"name": "Btn_MiningArea01_png"
+		},
+		{
+			"url": "assets/edugameRes/Btn_MiningArea02.png",
+			"type": "image",
+			"name": "Btn_MiningArea02_png"
+		},
+		{
+			"url": "assets/edugameRes/Frame_MiningArea_01.png",
+			"type": "image",
+			"name": "Frame_MiningArea_01_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_Mine01.png",
+			"type": "image",
+			"name": "Bg_Mine01_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_Mine02.png",
+			"type": "image",
+			"name": "Bg_Mine02_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_Mine03.png",
+			"type": "image",
+			"name": "Bg_Mine03_png"
+		},
+		{
+			"url": "assets/edugameRes/Lv.1.png",
+			"type": "image",
+			"name": "Lv.1_png"
+		},
+		{
+			"url": "assets/edugameRes/Lv.2.png",
+			"type": "image",
+			"name": "Lv.2_png"
+		},
+		{
+			"url": "assets/edugameRes/Lv.3.png",
+			"type": "image",
+			"name": "Lv.3_png"
+		},
+		{
+			"url": "assets/edugameRes/Lv.4.png",
+			"type": "image",
+			"name": "Lv.4_png"
+		},
+		{
+			"url": "assets/edugameRes/Lv.5.png",
+			"type": "image",
+			"name": "Lv.5_png"
+		},
+		{
+			"url": "assets/edugameRes/Lv.6.png",
+			"type": "image",
+			"name": "Lv.6_png"
+		},
+		{
+			"url": "assets/edugameRes/Jiaoyisuo.png",
+			"type": "image",
+			"name": "Jiaoyisuo_png"
+		},
+		{
+			"url": "assets/edugameRes/Gongjushangdian.png",
+			"type": "image",
+			"name": "Gongjushangdian_png"
+		},
+		{
+			"url": "assets/edugameRes/Kuangquguangli.png",
+			"type": "image",
+			"name": "Kuangquguangli_png"
+		},
+		{
+			"url": "assets/edugameRes/toolsIcon/Icon_Caikuanggongju.png",
+			"type": "image",
+			"name": "Icon_Caikuanggongju_png"
+		},
+		{
+			"url": "assets/edugameRes/toolsIcon/Icon_Jingyanquan.png",
+			"type": "image",
+			"name": "Icon_Jingyanquan_png"
+		},
+		{
+			"url": "assets/edugameRes/toolsIcon/Icon_Ranliao1.png",
+			"type": "image",
+			"name": "Icon_Ranliao1_png"
+		},
+		{
+			"url": "assets/edugameRes/toolsIcon/Icon_Ranliao2.png",
+			"type": "image",
+			"name": "Icon_Ranliao2_png"
+		},
+		{
+			"url": "assets/edugameRes/toolsIcon/Icon_Ranliao3.png",
+			"type": "image",
+			"name": "Icon_Ranliao3_png"
+		},
+		{
+			"url": "assets/edugameRes/toolsIcon/Icon_Taoxiji.png",
+			"type": "image",
+			"name": "Icon_Taoxiji_png"
+		},
+		{
+			"url": "assets/edugameRes/toolsIcon/chongxingwajueji.png",
+			"type": "image",
+			"name": "chongxingwajueji_png"
+		},
+		{
+			"url": "assets/edugameRes/toolsIcon/daxingwajueji.png",
+			"type": "image",
+			"name": "daxingwajueji_png"
+		},
+		{
+			"url": "assets/edugameRes/toolsIcon/miniwajueji.png",
+			"type": "image",
+			"name": "miniwajueji_png"
+		},
+		{
+			"url": "assets/edugameRes/toolsIcon/xiaoxingwajueji.png",
+			"type": "image",
+			"name": "xiaoxingwajueji_png"
+		},
+		{
+			"url": "assets/edugameRes/toolsIcon/zhongxingwajueji.png",
+			"type": "image",
+			"name": "zhongxingwajueji_png"
+		},
+		{
+			"url": "assets/edugameRes/Bg_Jiaoyisuo01.png",
+			"type": "image",
+			"name": "Bg_Jiaoyisuo01_png"
+		},
+		{
+			"url": "assets/edugameRes/dragonb/Lv1_tex.png",
+			"type": "image",
+			"name": "Lv1_tex_png"
+		},
+		{
+			"url": "assets/edugameRes/dragonb/Lv1_ske.json",
+			"type": "json",
+			"name": "Lv1_ske_json"
+		},
+		{
+			"url": "assets/edugameRes/dragonb/Lv1_tex.json",
+			"type": "json",
+			"name": "Lv1_tex_json"
+		}
+	]
+}
