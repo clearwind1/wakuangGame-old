@@ -1,0 +1,40 @@
+{
+  "engineVersion": "5.2.32",
+  "compilerVersion": "5.2.32",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "dragonBones"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "wakuang",
+      "packagename": "com.breakgame"
+    }
+  }
+}
