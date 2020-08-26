@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InfoSettingPage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="appIcon_json.Bg_Personal03_png" x="0" width="750" height="100%" scale9Grid="6,2,41,12" bottom="100" locked="true"/>
+	<e:Scroller width="750" height="522" x="0" y="0" touchEnabled="false" touchChildren="false" locked="true">
+		<e:Group scrollEnabled="false">
+			<e:Image width="785" height="100%" y="0" source="appIcon_json.Bg_Personal02_png" scale9Grid="11,11,66,66" horizontalCenter="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="back_btn" source="appIcon_json.Banner_Personal_Back01_png" x="30" y="28"/>
+	<e:Image source="appIcon_json.Line_Personal01_png" y="90" horizontalCenter="0" width="690"/>
+	<e:Image source="appIcon_json.Line_Personal02_png" y="198" horizontalCenter="0" width="690"/>
+	<e:Image source="appIcon_json.Line_Personal02_png" y="306" horizontalCenter="0" width="690"/>
+	<e:Image source="appIcon_json.Line_Personal02_png" y="414" horizontalCenter="0" width="690"/>
+	<e:Image id="headImg" source="appIcon_json.Bg_Personal04_png" y="101" width="88" height="88" x="585"/>
+	<e:Image id="headMask" source="appIcon_json.Bg_Personal04_png" y="101" width="88" height="88" x="585"/>
+	<e:Label text="账号设置" y="28" horizontalCenter="0" textColor="0x353535" size="34" fontFamily="myFont"/>
+	<e:Label text="头像" textColor="0x353535" size="28" fontFamily="myFont" x="36" y="129"/>
+	<e:Label text="用户名" textColor="0x353535" size="28" fontFamily="myFont" x="36" y="237"/>
+	<e:Label text="性别" textColor="0x353535" size="28" fontFamily="myFont" x="36" y="345"/>
+	<e:Label text="生日" size="28" fontFamily="myFont" x="36" y="453" textColor="0x353535"/>
+	<e:Label id="nickname" text="男" size="28" fontFamily="myFont" textColor="0x9b9b9b" y="237" right="78"/>
+	<e:Label id="sex" text="男" size="28" fontFamily="myFont" x="644" textColor="0x9B9B9B" y="345"/>
+	<e:Label id="birth" text="1900-01-01" size="28" fontFamily="myFont" textColor="0x9B9B9B" y="453" right="78"/>
+	<e:Button id="reset_head_btn" label="" x="35" y="107" width="664" height="73" anchorOffsetX="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="appIcon_json.Banner_Personal_Back02_png" right="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="reset_nickname_btn" label="" x="35" y="215" width="664" height="73" anchorOffsetX="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="appIcon_json.Banner_Personal_Back02_png" right="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="reset_sex_btn" label="" x="35" y="323" width="664" height="73" anchorOffsetX="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="appIcon_json.Banner_Personal_Back02_png" right="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="reset_birth_btn" label="" x="35" y="431" width="664" height="73" anchorOffsetX="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image source="appIcon_json.Banner_Personal_Back02_png" right="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="change_nickname_group" width="100%" height="100%" x="0" y="0" visible="false">
+		<e:Rect width="100%" height="100%" x="0" y="0" fillAlpha="0.6"/>
+		<e:Image y="321" width="465" horizontalCenter="0.5" x="1" scaleX="1" scaleY="1" source="appIcon_json.Bg_Personal02_png" scale9Grid="24,9,26,56"/>
+		<e:EditableText id="nickname_input" width="393" height="50" text="" x="177" y="339.98" size="28" textAlign="left" verticalAlign="middle" prompt="请输入手机号" scaleX="1" scaleY="1" promptColor="0x3E4A6B" fontFamily="myFont" textColor="0x8CA6D8" anchorOffsetX="0" maxChars="10"/>
+		<e:Button id="changeNickname_btn" label="确认修改" horizontalCenter="0" y="531">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Btn_Logon_01_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="myFont"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="nickname_cancel_btn" label="取消" horizontalCenter="0" y="661">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Btn_Logon_01_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="myFont"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group id="change_sex_group" width="100%" height="100%" x="0" y="0" visible="false" locked="true">
+		<e:Rect width="100%" height="100%" x="0" y="0" fillAlpha="0.6"/>
+		<e:Image source="appIcon_json.Bg_Personal02_png" y="321" scale9Grid="24,9,26,56" width="465" horizontalCenter="0.5" x="1" scaleX="1" scaleY="1"/>
+		<e:Button id="changeSex_btn" label="确认修改" horizontalCenter="0" y="531">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Logon_01_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="myFont"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="changeSex_cancel_btn" label="取消" horizontalCenter="0" y="661">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Logon_01_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="myFont"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:RadioButton id="rdb_man" label="男" x="261" y="338" anchorOffsetX="0" width="70" anchorOffsetY="0" height="50" value="1">
+		</e:RadioButton>
+		<e:RadioButton id="rdb_woman" label="女" x="406" y="338" anchorOffsetX="0" width="70" anchorOffsetY="0" height="50" value="2"/>
+	</e:Group>
+	<e:Group id="change_birth_group" width="100%" height="100%" x="0" y="0" visible="false" locked="true">
+		<e:Rect width="100%" height="100%" x="0" y="0" fillAlpha="0.6"/>
+		<e:Image source="appIcon_json.Bg_Personal02_png" y="321" scale9Grid="24,9,26,56" width="465" horizontalCenter="0.5" x="1" scaleX="1" scaleY="1"/>
+		<e:Button id="changeBirth_btn" label="确认修改" horizontalCenter="0" y="531">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Logon_01_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="myFont"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Button id="changeBirth_cancel_btn" label="取消" horizontalCenter="0" y="661">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_Logon_01_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="myFont"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image source="appIcon_json.Bg_Logon_05_png" x="304" y="334"/>
+		<e:Image source="appIcon_json.Bg_Logon_05_png" x="459" y="334"/>
+		<e:Label id="year_select" text="2020" x="187" y="344" textColor="0x353535" size="40"/>
+		<e:Label id="month_select" text="01" x="360" y="344" textColor="0x353535" size="40"/>
+		<e:Label id="day_select" text="01" x="506" y="344" textColor="0x353535" size="40"/>
+		<e:Scroller id="birth_scroller" width="107" height="200" x="176" y="412">
+			<e:List id="birth_list" itemRendererSkinName="BirthItem"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

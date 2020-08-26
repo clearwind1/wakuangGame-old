@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingLogo" width="750" height="1134" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="logo" horizontalCenter="0" verticalCenter="0" alpha="0" source="appIcon_json.Logo_Main_png"/>
+</e:Skin>

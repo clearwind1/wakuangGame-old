@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ExchangeItem" width="754" height="44" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="gameRes_json.Bg_Jiaoyisuo04_png" x="15" y="42"/>
+	<e:Label text="{data.use_mine}" x="17" size="22" fontFamily="myFont" textColor="0xb4dfea" y="11"/>
+	<e:Label text="{data.exchange_gst}" size="22" fontFamily="myFont" textColor="0xB4DFEA" y="11" x="275"/>
+	<e:Label size="22" fontFamily="myFont" textColor="0xB4DFEA" y="11" x="551" text="{data.time}"/>
+</e:Skin>

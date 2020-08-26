@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingView" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="appIcon_json.Bg_Main01_png" x="0" y="0" width="100%" height="100%" scale9Grid="5,20,30,21"/>
+	<e:Image source="appIcon_json.Bg_Main02_png" x="0" y="0" width="100%"/>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="appIcon_json.Logo_Main_png" y="197" horizontalCenter="0" x="605" scaleX="1" scaleY="1"/>
+		<e:Rect id="loadingBar" width="600" height="33" y="375" fillAlpha="1" ellipseWidth="20" ellipseHeight="20" fillColor="0x4780c1" x="367" scaleX="1" scaleY="1"/>
+		<e:Rect width="600" height="35" y="375" strokeWeight="2" fillAlpha="0" ellipseWidth="20" ellipseHeight="20" x="367" scaleX="1" scaleY="1"/>
+		<e:Label id="loadingTx" text="Label" y="380" size="25" horizontalCenter="0" x="636" scaleX="1" scaleY="1"/>
+		<e:Label id="tipTx" text="Label" y="419" horizontalCenter="0" size="25" x="636" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

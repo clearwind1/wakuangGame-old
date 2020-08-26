@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Warehouse" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="Bg_Shop01_jpg" x="0" y="0" width="100%"/>
+	<e:Group id="head_group" x="0" y="0"/>
+	<e:Image source="gameRes_json.Bg_Shop04_png" y="80" scale9Grid="12,13,72,81" width="922" height="624" right="19"/>
+	<e:Image source="Role_02_png" x="-58" bottom="0"/>
+	<e:Scroller height="592.58" y="95" anchorOffsetX="0" anchorOffsetY="0" width="886" right="30">
+		<e:List id="warehouseList" itemRendererSkinName="GoodsItem">
+		<e:layout>
+			<e:TileLayout horizontalGap="7" verticalGap="16" paddingLeft="0"/>
+		</e:layout>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

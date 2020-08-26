@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MineArea" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="Bg_Shop01_jpg" x="0" y="0" width="100%"/>
+	<e:Group id="head_group" width="100%" x="0" y="0"/>
+	<e:Image source="Frame_MiningArea_01_png" x="123.67" y="93.5"/>
+	<e:Button id="config_excavate_engine_btn" label="配置挖掘机" y="258" horizontalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_MiningArea01_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" fontFamily="myFont" size="24" stroke="2" strokeColor="#41b5ff"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="config_panning_engine_btn" label="配置淘洗机器" y="258" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_MiningArea01_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" fontFamily="myFont" size="24" stroke="2" strokeColor="#41b5ff"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="start_dig_btn" label="" y="611.33" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="Btn_MiningArea02_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="-5" fontFamily="myFont" size="28"/>
+	<e:Label id="tx" text="Label" horizontalCenter="0" verticalCenter="-5" size="28" fontFamily="myFont" strokeColor="0xf6ca52" stroke="2" textAlign="center" width="218"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="panning_engine" source="Icon_Taoxiji_png" x="94" y="376" visible="false"/>
+	<e:Image id="excavate_engine0" source="Icon_Taoxiji_png" x="338.67" y="360" visible="false"/>
+	<e:Image id="excavate_engine1" source="Icon_Taoxiji_png" x="546" y="427" visible="false"/>
+	<e:Image id="excavate_engine2" source="Icon_Taoxiji_png" x="749" y="375" visible="false"/>
+	<e:Image id="excavate_engine3" source="Icon_Taoxiji_png" x="916.5" y="482" visible="false"/>
+	<e:Image id="excavate_engine4" source="Icon_Taoxiji_png" x="1074" y="360" visible="false"/>
+	<e:Label id="area_grade" text="" x="281" y="104" fontFamily="myFont" size="24" width="253" anchorOffsetX="126.5" textAlign="center"/>
+	<e:Group id="select_group" width="100%" height="100%" x="0" y="0" visible="false" locked="true">
+		<e:Rect width="100%" height="100%" x="0" y="0" fillAlpha="0.6"/>
+		<e:Scroller height="592.58" y="95" anchorOffsetX="0" anchorOffsetY="0" width="886" horizontalCenter="0">
+			<e:List id="warehouseList" itemRendererSkinName="GoodsItem">
+			<e:layout>
+				<e:TileLayout horizontalGap="7" verticalGap="16" paddingLeft="0"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Image id="select_close_btn" source="gameRes_json.close_png" x="1270" y="18"/>
+	</e:Group>
+</e:Skin>

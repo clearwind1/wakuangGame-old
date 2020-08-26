@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomePage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="appIcon_json.Bg_Main01_png" y="0" width="100%" height="100%" x="0" scale9Grid="15,37,7,4"/>
+	<e:Group id="home_group" width="100%" x="0" y="0" scaleX="1" scaleY="1" height="1234">
+		<e:Image source="appIcon_json.Logo_Main_png" y="26" horizontalCenter="0" x="313" scaleX="1" scaleY="1"/>
+		<e:Image source="appIcon_json.Bg_Main02_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Group id="banner_group" width="100%" height="390" x="0" y="96" scaleX="1" scaleY="1"/>
+		<e:Group id="bannerIndex_group" width="100%" height="16" x="0" y="472" scaleX="1" scaleY="1">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group width="100%" x="1" y="488" height="170" scaleX="1" scaleY="1">
+			<e:Button id="game_btn" label="游戏" y="23" x="31" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="114" height="120">
+				<e:Image width="100%" height="100%" source="appIcon_json.Bg_Main03_png" source.down="appIcon_json.Bg_Main03_xz_png"/>
+				<e:Image source="appIcon_json.Icon_Youxi_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" y="132" text="游戏" fontFamily="myFont" size="20"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="purse_btn" label="我的钱包" y="33" x="41" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="114" height="120">
+				<e:Image width="100%" height="100%" source="appIcon_json.Bg_Main03_png" source.down="appIcon_json.Bg_Main03_xz_png"/>
+				<e:Image horizontalCenter="0" verticalCenter="0" source="appIcon_json.Icon_Qianbao_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" y="132" text="游戏" fontFamily="myFont" size="20"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="card_btn" label="卡管理" y="43" x="51" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="114" height="120">
+				<e:Image width="100%" height="100%" source="appIcon_json.Bg_Main03_png" source.down="appIcon_json.Bg_Main03_xz_png"/>
+				<e:Image horizontalCenter="0" verticalCenter="0" source="appIcon_json.Icon_Kabao_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" y="132" text="游戏" fontFamily="myFont" size="20"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:layout>
+			<e:HorizontalLayout verticalAlign="top" gap="125" horizontalAlign="center" paddingLeft="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Scroller id="news_scroller" width="100%" height="572" y="660" anchorOffsetY="0" x="0" scaleX="1" scaleY="1">
+			<e:List id="news_list" itemRendererSkinName="NewsItem"/>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="news_group" width="100%" x="0" y="0" scaleX="1" scaleY="1" height="1234" visible="false" locked="true">
+		<e:Image source="appIcon_json.Bg_Main02_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="appIcon_json.Line_Information01_png" y="100" horizontalCenter="0" width="690"/>
+		<e:Label text="资讯" y="34" horizontalCenter="0" size="34" fontFamily="myFont"/>
+		<e:Scroller id="news_scroller0" width="100%" height="1134" y="100" anchorOffsetY="0" x="0" scaleX="1" scaleY="1">
+		<e:List id="news_list0" itemRendererSkinName="AllNewsItem">
+		</e:List>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="personal_group" width="100%" height="100%" x="0" y="0" visible="false">
+		<e:Image source="appIcon_json.Bg_Personal01_png" x="0" y="0"/>
+		<e:Image source="appIcon_json.Bg_Personal02_png" y="378" width="100%" horizontalCenter="0" scale9Grid="31,39,23,18" height="1028"/>
+		<e:Image source="appIcon_json.Bg_Personal03_png" x="0" y="594" scale9Grid="6,2,41,12" width="100%" height="12"/>
+		<e:Image source="appIcon_json.Bg_Personal03_png" x="0" y="930" scale9Grid="6,2,41,12" width="100%" height="1000"/>
+		<e:Image source="appIcon_json.Bg_Main01_png" width="100%" height="100" x="0" scale9Grid="15,37,7,4" bottom="0"/>
+		<e:Image id="headImg" source="appIcon_json.Bg_Personal04_png" y="72" horizontalCenter="0" width="142" height="142"/>
+		<e:Image id="headMask" source="appIcon_json.Bg_Personal04_png" y="72" horizontalCenter="0" width="142" height="142"/>
+		<e:Image source="appIcon_json.Line_Personal02_png" y="486" width="690" horizontalCenter="0"/>
+		<e:Image source="appIcon_json.Line_Personal02_png" y="714" width="690" horizontalCenter="0"/>
+		<e:Image source="appIcon_json.Line_Personal02_png" y="822" width="690" horizontalCenter="0"/>
+		<e:Group width="645" height="108" x="54" y="378">
+			<e:Image source="appIcon_json.Icon_GRQianbao_png" x="0" verticalCenter="0"/>
+			<e:Label text="钱包管理" fontFamily="myFont" size="28" verticalCenter="0" textColor="0x353535" x="90"/>
+			<e:Button id="purseManage_btn" label="" verticalCenter="0" x="622" width="32" height="42">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="appIcon_json.Banner_Personal_Back02_png" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group width="645" height="108" x="54" y="486">
+			<e:Image x="0" verticalCenter="0" source="appIcon_json.Icon_GRKabao_png"/>
+			<e:Label text="卡管理" fontFamily="myFont" size="28" verticalCenter="0" textColor="0x353535" x="90"/>
+			<e:Button id="cardManage_btn" label="" verticalCenter="0" x="622" width="32" height="42">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="appIcon_json.Banner_Personal_Back02_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group width="645" height="108" x="54" y="607">
+			<e:Image x="0" verticalCenter="0" source="appIcon_json.Icon_GRYaoqingma_png"/>
+			<e:Label text="我的邀请码" fontFamily="myFont" size="28" verticalCenter="-22" textColor="0x353535" x="90"/>
+			<e:Label id="my_invite_code" text="我的邀请码" fontFamily="myFont" size="24" verticalCenter="19" x="90" textColor="0x9b9b9b"/>
+			<e:Button id="invite_code_btn" label="" verticalCenter="0" x="622" width="32" height="42">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="appIcon_json.Banner_Personal_Back02_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group width="645" height="108" x="54" y="715">
+			<e:Image x="0" verticalCenter="0" source="appIcon_json.Icon_GRXiangqing_png"/>
+			<e:Label text="关于有矿" fontFamily="myFont" size="28" verticalCenter="0" textColor="0x353535" x="90"/>
+			<e:Button id="about_btn" label="" verticalCenter="0" x="622" width="32" height="42">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image source="appIcon_json.Banner_Personal_Back02_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group width="645" height="108" x="54" y="823">
+			<e:Image x="0" verticalCenter="0" source="appIcon_json.Icon_GRShezhi_png"/>
+			<e:Label text="设置" fontFamily="myFont" size="28" verticalCenter="0" textColor="0x353535" x="90"/>
+			<e:Button id="setting_btn" label="" verticalCenter="0" width="645" height="60" right="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="645" height="60">
+				<e:Image source="appIcon_json.Banner_Personal_Back02_png" verticalCenter="0" right="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Label id="nickName" text="Label" y="258" horizontalCenter="0" fontFamily="myFont" size="40"/>
+		<e:Label id="telNum" text="Label" y="312" horizontalCenter="0" fontFamily="myFont" size="22" textColor="0x7a83a4" visible="false"/>
+	</e:Group>
+	<e:Group id="bottom_nav" width="100%" height="100" x="0" bottom="0" locked="true">
+		<e:Group width="100%" height="100%" x="0" y="0">
+			<e:Button id="home_btn" label="首页" y="23" x="31" scaleX="1" scaleY="1">
+				<e:skinName currentState="down" >
+					<e:Skin states="up,down,disabled" height="81" width="78">
+					<e:Image source="appIcon_json.Icon_Shouye_png" source.down="appIcon_json.Icon_Shouye_xz_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" size="20" textColor="0x6d7079" fontFamily="myFont" text="首页" y="53.92" textColor.down="0x33f2c1"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="news_btn" label="资讯" y="33" x="41" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="appIcon_json.Icon_Zixun_png" source.down="appIcon_json.Icon_Zixun_xz_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" size="20" textColor="0x6d7079" fontFamily="myFont" text="首页" y="53.92" textColor.down="0x33f2c1"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="exchange_btn" label="交易所" y="43" x="51" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="appIcon_json.Icon_Jiaoyihang_png" source.down="appIcon_json.Icon_Jiaoyihang_xz_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" size="20" textColor="0x6d7079" fontFamily="myFont" text="首页" y="53.92" textColor.down="0x33f2c1"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="personal_btn" label="个人中心" y="53" x="61" scaleX="1" scaleY="1">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image source="appIcon_json.Icon_Gerenzhongxin_png" source.down="appIcon_json.Icon_Gerenzhongxin_xz_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" size="20" textColor="0x6d7079" fontFamily="myFont" text="首页" y="53.92" textColor.down="0x33f2c1"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:layout>
+				<e:HorizontalLayout verticalAlign="middle" horizontalAlign="center" gap="114"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

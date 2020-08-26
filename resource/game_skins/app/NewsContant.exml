@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewsContant" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" x="0" y="0" scaleX="1" scaleY="1" height="100%">
+		<e:Image source="appIcon_json.Bg_Main01_png" y="0" width="100%" height="100%" x="0" scale9Grid="15,37,7,4"/>
+		<e:Image source="appIcon_json.Bg_Main02_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="appIcon_json.Line_Main01_png" y="202" width="690" scale9Grid="6,0,10,3" horizontalCenter="0"/>
+		<e:Image id="img" width="702" height="248" x="30" y="218"/>
+		<e:Label id="title" text="Label" x="30" y="96" size="36" textColor="0xebf0ff" fontFamily="myFont"/>
+		<e:Label id="time" x="30" size="22" fontFamily="myFont" y="164" textColor="0x535B70" text="time"/>
+		<e:Button id="back" label="" x="30" y="17">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="appIcon_json.Banner_Information_Back01_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="contentScroller" width="703" height="200" x="28" y="488">
+			<e:Group>
+				<e:Label id="contants" text="中文中文中文中文中文中文中文中文中文中文中文中文中文" x="8" size="28" fontFamily="myFont" y="0" lineSpacing="8" textColor="0xaab0c7" scaleX="1" scaleY="1" textAlign="left" width="688"/>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

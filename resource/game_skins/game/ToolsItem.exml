@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ToolsItem" xmlns:e="http://ns.egret.com/eui" width="288" height="293">
+	<e:Image source="Bg_Shop02_png" x="0" y="0"/>
+	<e:Image verticalCenter="-24" horizontalCenter="0" source="{data.id_card}"/>
+	<e:Image source="gameRes_json.Btn_Shop02_png" y="214" x="7"/>
+	<e:Label y="19" size="22" horizontalCenter="0" text="{data.name}" fontFamily="myFont" textColor="0xb1d0e8"/>
+	<e:Label size="30" fontFamily="myFont" verticalCenter="103.5" textColor="0xffffff" stroke="2" strokeColor="0x9541c0" horizontalCenter="0" text="{data.price}"/>
+</e:Skin>

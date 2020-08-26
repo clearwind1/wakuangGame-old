@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameShare" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" x="0" y="0" fillAlpha="0.7"/>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="618" height="566" source="gameRes_json.Frame_03_png" scale9Grid="77,40,464,240" x="358" y="92"/>
+		<e:Image source="gameRes_json.banner_png" y="130" x="391"/>
+		<e:Button id="back_btn" label="" x="949" y="74">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gameRes_json.close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="shareUrl_btn" label="复制链接" x="798" y="462">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" height="123" width="123">
+				<e:Image width="100%" height="100%" source="gameRes_json.Btn_Fenxiang_bg_png"/>
+				<e:Image source="gameRes_json.Icon_Lianjie_png" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" fontFamily="myFont" size="24" bold="true" text="复制链接" y="136"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="shareFriend_btn" label="微信消息" x="408" y="462">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" height="123" width="123">
+				<e:Image width="100%" height="100%" source="gameRes_json.Btn_Fenxiang_bg_png"/>
+				<e:Image horizontalCenter="0" verticalCenter="0" source="gameRes_json.Icon_Weixin2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" fontFamily="myFont" size="24" bold="true" text="复制链接" y="136"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="shareGroup_btn" label="微信朋友圈" x="604" y="462">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" height="123" width="123">
+				<e:Image width="100%" height="100%" source="gameRes_json.Btn_Fenxiang_bg_png"/>
+				<e:Image horizontalCenter="0" verticalCenter="0" source="gameRes_json.Icon_Pengyouquan_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" fontFamily="myFont" size="24" bold="true" text="复制链接" y="136"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

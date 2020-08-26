@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AllNewsItem" width="750" height="386" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="690" source="appIcon_json.Line_Main01_png" bottom="0" x="30" scale9Grid="7,0,8,3"/>
+	<e:Image width="702" height="248" x="30" y="76" source="{data.thumb}"/>
+	<e:Label text="{data.title}" x="30" y="32" size="28" fontFamily="myFont" textColor="0xebf0ff"/>
+	<e:Label text="{data.publish_at}" x="30" size="22" fontFamily="myFont" y="334" textColor="0x535b70"/>
+</e:Skin>

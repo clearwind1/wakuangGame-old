@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSkin" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1737e3ca879"/>
+	<e:Image id="bg" x="0" y="0" width="100%" height="100%" scale9Grid="1077,935,72,44" source="Bg_Logon_01_png"/>
+	<e:Group y="179" horizontalCenter="0">
+		<e:Label id="wz_wk" text="xxxx挖矿" x="3" verticalCenter="0" visible="false"/>
+		<e:Image horizontalCenter="0" verticalCenter="0" source="appIcon_json.Logo_Main_png"/>
+	</e:Group>
+	<e:Group id="lg_group" width="537" horizontalCenter="0" bottom="62" height="375">
+		<e:Button id="wx_lg_btn" label="" horizontalCenter="0" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Btn_Logon_01_png"/>
+	<e:Image source="appIcon_json.Icon_Weixin_png" x="209" y="24"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="wz" text="微信登录" size="34" x="272" y="30" fontFamily="myFont"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="lg_btn" label="手机号码登录" y="254.34" horizontalCenter="0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled" width="110" height="110">
+				<e:Image source="appIcon_json.Bg_Logon_02_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" fontFamily="myFont" text="手机号码" size="24" textColor="0x4c5e89" y="115"/>
+	<e:Image source="appIcon_json.Icon_Shouji01_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="wz" text="手机号码登录" y="121" size="22" horizontalCenter="0" textColor="0x4c5e89" visible="false"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="appIcon_json.Bg_Logon_04_png" y="209" x="-46"/>
+		<e:Image source="appIcon_json.Bg_Logon_04_png" y="209" x="354"/>
+		<e:Label id="wz_more" text="更多登录方式" y="198" size="22" textColor="0x4c5e89" horizontalCenter="0.5" fontFamily="myFont"/>
+	</e:Group>
+	<e:Group id="login_group" width="100%" height="100%" x="0" y="0" visible="false">
+		<e:Button id="back_btn" label="返回" y="27" x="20" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="Bg_Logon_03_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="myFont"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group width="750" height="619" x="0" bottom="0" anchorOffsetY="0">
+			<e:Group id="phone_group" width="421.33" height="106.67" x="172" y="38" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image source="appIcon_json.Bg_Logon_03_png" y="15" scale9Grid="63,9,38,56" width="465" horizontalCenter="0" x="1" scaleX="1" scaleY="1"/>
+				<e:Image source="appIcon_json.Bg_Logon_05_png" x="73.32999999999998" y="20.329999999999927" scaleX="1" scaleY="1"/>
+				<e:Image source="appIcon_json.Icon_Shouji02_png" x="2.31" y="27.980000000000018" scaleX="1" scaleY="1"/>
+				<e:EditableText id="phone_input" width="281" height="50" text="" x="91" y="27.980000000000018" size="28" textAlign="left" verticalAlign="middle" prompt="请输入手机号" scaleX="1" scaleY="1" promptColor="0x3e4a6b" fontFamily="myFont" textColor="0x8ca6d8"/>
+				<e:Button id="nextstep_btn" label="" horizontalCenter="0" y="225">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="Btn_Logon_01_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label id="wz" text="下一步" size="34" y="30" horizontalCenter="0" fontFamily="myFont"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="password_group" width="421.33" height="106.67" x="172" y="38" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image source="appIcon_json.Bg_Logon_03_png" y="15" scale9Grid="63,9,38,56" width="465" horizontalCenter="0" x="1" scaleX="1" scaleY="1"/>
+				<e:Image source="appIcon_json.Bg_Logon_05_png" x="73.32999999999998" y="20.329999999999927" scaleX="1" scaleY="1"/>
+				<e:Image x="2.31" y="27.980000000000018" scaleX="1" scaleY="1" source="appIcon_json.Icon_Mima_png"/>
+				<e:EditableText id="paswd_input" width="281" height="50" text="" x="91" y="27.980000000000018" size="28" textAlign="left" verticalAlign="middle" prompt="输入密码" scaleX="1" scaleY="1" promptColor="0x3e4a6b" fontFamily="myFont" textColor="0x8ca6d8"/>
+				<e:Button id="sure_login_btn" label="" horizontalCenter="0" y="225">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="Btn_Logon_01_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label id="wz" text="登录" size="34" y="30" horizontalCenter="0" fontFamily="myFont"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="lost_password_btn" label="" y="108" x="288">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image height="0" source="appIcon_json.Bg_Logon_04_png" width="120"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						<e:Rect width="120" height="2" x="0" y="25" fillColor="0x39a4fa"/>
+						<e:Label id="wz" text="忘记密码？" x="0" y="0" size="24" textColor="0x39a4fa" fontFamily="myFont"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group id="regist_group" width="421.33" height="106.67" x="172" y="134" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+				<e:Image source="appIcon_json.Bg_Logon_03_png" y="15" scale9Grid="63,9,38,56" width="465" horizontalCenter="0" x="1" scaleX="1" scaleY="1"/>
+				<e:Image source="appIcon_json.Bg_Logon_05_png" x="73.32999999999998" y="20.329999999999927" scaleX="1" scaleY="1"/>
+				<e:Image x="2.31" y="27.980000000000018" scaleX="1" scaleY="1" source="appIcon_json.Icon_Yanzhengma_png"/>
+				<e:EditableText id="code_input" width="281" height="50" text="" x="91" y="27.980000000000018" size="28" textAlign="left" verticalAlign="middle" prompt="输入验证码" scaleX="1" scaleY="1" promptColor="0x3e4a6b" fontFamily="myFont" textColor="0x8ca6d8"/>
+				<e:Group id="invite_group" x="-41" y="-91">
+					<e:Image source="appIcon_json.Bg_Logon_03_png" y="7" scale9Grid="63,9,38,56" width="465" x="19" scaleX="1" scaleY="1"/>
+					<e:Image source="appIcon_json.Bg_Logon_05_png" x="114.32999999999998" y="12.330000000000041" scaleX="1" scaleY="1"/>
+					<e:Image x="43.31" y="19.980000000000018" scaleX="1" scaleY="1" source="appIcon_json.Icon_Yaoqingma_png"/>
+					<e:EditableText id="invite_input" width="281" height="50" text="" x="132" y="19.980000000000018" size="28" textAlign="left" verticalAlign="middle" prompt="输入邀请码" scaleX="1" scaleY="1" promptColor="0x3E4A6B" fontFamily="myFont" textColor="0x8CA6D8"/>
+				</e:Group>
+				<e:Image source="appIcon_json.Bg_Logon_03_png" y="121" scale9Grid="63,9,38,56" width="465" horizontalCenter="-0.16499999999999204" x="1" scaleX="1" scaleY="1"/>
+<e:Image source="appIcon_json.Bg_Logon_05_png" x="73.32999999999998" y="126.33" scaleX="1" scaleY="1"/>
+<e:Image x="2.31" y="133.98" scaleX="1" scaleY="1" source="appIcon_json.Icon_Mima_png"/>
+<e:EditableText id="regist_psw_input" width="281" height="50" text="" x="91" y="133.98" size="28" textAlign="left" verticalAlign="middle" prompt="输入密码" scaleX="1" scaleY="1" promptColor="0x3e4a6b" fontFamily="myFont" textColor="0x8ca6d8"/>
+				<e:Button id="regist_btn" label="" horizontalCenter="0.33500000000000796" y="264">
+					<e:skinName>
+					<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="Btn_Logon_01_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label id="wz" text="注册" size="34" y="30" horizontalCenter="0" fontFamily="myFont"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="code_btn" label="" y="36" x="297">
+					<e:skinName>
+						<e:Skin states="up,down,disabled" width="142">
+						<e:Image height="100%" source="appIcon_json.Bg_Logon_06_png" scale9Grid="21,4,8,26" width="142"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="wz" text="获取验证码" horizontalCenter="0" verticalCenter="0" size="20" textColor="0x39a4fa" fontFamily="myFont"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Button id="reset_code_btn" label="" y="36" x="297" visible="false">
+					<e:skinName>
+					<e:Skin states="up,down,disabled" width="142">
+						<e:Image height="100%" source="appIcon_json.Bg_Logon_06_png" scale9Grid="21,4,8,26" width="142"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						<e:Label id="wz" text="获取验证码" horizontalCenter="0" verticalCenter="0" size="20" textColor="0x39a4fa" fontFamily="myFont"/>
+					</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Label id="wz_pawtip" text="密码为6~8位的数字，英文大小写，符号组成" y="204" horizontalCenter="0" size="24" textColor="0x36415e" fontFamily="myFont"/>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

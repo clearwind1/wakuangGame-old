@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ToolInfo" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="100%" height="100%" x="0" y="0" fillAlpha="0.6"/>
+	<e:Group width="1334" height="750" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="gameRes_json.Frame_01_png" horizontalCenter="0" y="98" scale9Grid="352,213,45,84" width="571" height="570" x="382" scaleX="1" scaleY="1"/>
+		<e:Image source="gameRes_json.Bg_Shop05_png" y="459" scale9Grid="4,4,30,30" width="272" height="47" x="531" scaleX="1" scaleY="1"/>
+		<e:Image id="goods_img" horizontalCenter="0" x="667" scaleX="1" scaleY="1" verticalCenter="-110"/>
+		<e:Label id="goods_name" text="" y="120" size="30" fontFamily="myFont" horizontalCenter="0" x="667" scaleX="1" scaleY="1"/>
+		<e:Label id="goods_num" text="1" y="471" size="26" fontFamily="myFont" horizontalCenter="0" x="661" scaleX="1" scaleY="1"/>
+		<e:Label id="goods_desc" text="" y="370" size="22" fontFamily="myFont" width="373" horizontalCenter="0" textColor="0x6c82a8" textAlign="center" x="481" scaleX="1" scaleY="1"/>
+		<e:Button id="back_btn" label="" y="112" anchorOffsetX="0" anchorOffsetY="0" x="877" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gameRes_json.close_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="buy_one_btn" label="租用一台" y="540" anchorOffsetX="0" anchorOffsetY="0" x="530" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gameRes_json.Btn_Shop02_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="sub_btn" label="" y="460.5" anchorOffsetX="0" anchorOffsetY="0" x="507.5" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gameRes_json.Btn_Shop03_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="add_btn" label="" y="460.5" anchorOffsetX="0" anchorOffsetY="0" x="782.5" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gameRes_json.Btn_Shop04_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

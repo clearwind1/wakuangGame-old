@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendItem" xmlns:e="http://ns.egret.com/eui" width="703" height="105">
+	<e:Image source="gameRes_json.Item_Haoyou01_png" x="0" y="0"/>
+	<e:Group x="30" y="6" width="111" height="111" scaleX="0.8" scaleY="0.8">
+		<e:Image source="gameRes_json.Head_Main_02_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="headMask" source="gameRes_json.Head_Main_01_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="headImg" x="0" y="0" width="111" height="111" scaleX="1" scaleY="1" mask="{this.headMask}" source="{data.picture}"/>
+	</e:Group>
+	<e:Label text="{data.nickname}" x="172" y="42" bold="true" size="26" fontFamily="myFont"/>
+	<e:Label y="42" bold="true" size="26" fontFamily="myFont" right="163" text="{data.curLevel}"/>
+	<e:Image id="owner_icon" source="gameRes_json.Icon_level01_png" x="554" y="43" scaleX="0.8" scaleY="0.8" visible="{data.isower}"/>
+</e:Skin>
